@@ -48,6 +48,11 @@ $ pnpm run start:prod
 ## Test
 
 ```bash
+
+# 访问地址
+"http://localhost:9080/app"
+
+
 # unit tests
 $ pnpm run test
 

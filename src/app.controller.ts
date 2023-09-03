@@ -11,6 +11,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   // 使用@Controller装饰器来定义控制器, @Get是请求方法的装饰器，对getHello方法进行修饰，表示这个方法会被GET请求调用。
+  // 访问 "http://localhost:9080/app/list"
   @Get('list')
   getHello(): string {
     return this.appService.getHello();
